@@ -31,3 +31,4 @@ class String
       array.length
   end
 end
+end
