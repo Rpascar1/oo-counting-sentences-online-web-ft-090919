@@ -25,6 +25,9 @@ class String
   end
 
   def count_sentences
-    
+    array = []
+    if self.include? (".","?","!")
+      array << self
+      array.length
   end
 end
