@@ -4,7 +4,7 @@ class String
 
   
   def sentence?
-    if string[-1] == "."
+    if self[-1] == "."
       true
     else
       false
