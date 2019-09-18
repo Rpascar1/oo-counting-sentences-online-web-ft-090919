@@ -2,6 +2,7 @@ require 'pry'
 
 class String
 
+  
   def sentence?
     if string[-1] == "."
       true
