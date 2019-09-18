@@ -2,8 +2,11 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(string)
+    if string[-1] == "."
+      true
+    else
+      false
   end
 
   def question?
