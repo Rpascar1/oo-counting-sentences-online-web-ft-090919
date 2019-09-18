@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-def sentence?(string)
+def sentence?
   if string[-1] == "."
       true
   else
