@@ -28,6 +28,6 @@ class String
     
   end
    array = [] 
-   array << self.split(/[.?!]/)  
-      return array.length
+   array.push(self.split(/[.?!]/))  
+     
   end
