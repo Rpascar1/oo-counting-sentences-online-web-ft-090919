@@ -2,13 +2,13 @@ require 'pry'
 
 class String
 
-def sentence?
-  if string[-1] == "."
+  def sentence?
+    if string[-1] == "."
       true
-  else
+    else
       false
+    end
   end
-end
 
 
 
